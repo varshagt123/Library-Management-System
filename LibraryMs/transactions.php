@@ -570,7 +570,7 @@ $mail->Host = 'smtp.gmail.com';
 
 $mail->SMTPAuth = true;
 
-$mail->Username = 'varshagt13@gmail.com';
+$mail->Username = 'abc123@gmail.com';
 
 $mail->Password = 'qadlacbdlehdsgek';
 
@@ -579,7 +579,7 @@ $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
 
 $mail->setFrom(
-'varshagt13@gmail.com',
+'abc123@gmail.com',
 'LibraryMS'
 );
 
