@@ -19,7 +19,7 @@ try {
 
     $mail->SMTPAuth = true;
 
-    $mail->Username = 'varshagt13@gmail.com';
+    $mail->Username = 'abc123@gmail.com';
 
     $mail->Password = 'qadlacbdlehdsgek';
 
@@ -57,7 +57,7 @@ try {
     while($row = mysqli_fetch_assoc($result)){
 
         $mail->setFrom(
-        'varshagt13@gmail.com',
+        'abc123@gmail.com',
         'LibraryMS'
         );
 
